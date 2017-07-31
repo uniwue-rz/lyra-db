@@ -1,0 +1,4 @@
+vendor
+composer.lock
+config.prod.php
+config.test.php

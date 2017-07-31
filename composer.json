@@ -1,0 +1,19 @@
+{
+    "name": "rzuw/lyra-db",
+    "description": "Lyra Database Library.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [{
+        "name": "Pouyan Azari",
+        "email": "pouyan.azari@uni-wuerzburg.de"
+    }],
+    "autoload": {
+        "psr-0": {
+            "De\\Uniwue\\RZ\\Lyra\\DB": "src/",
+            "De\\Uniwue\\RZ\\Lyra\\Exceptions": "src/"
+        }
+    },
+    "require": {
+        "doctrine/dbal": "*"
+    }
+}
